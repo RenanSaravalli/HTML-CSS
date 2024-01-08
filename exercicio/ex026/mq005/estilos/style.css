@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 * {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -11,6 +12,7 @@ body, html {
 }
 
 header {
+    
     background-color: rgb(11, 160, 11);
 
 }
@@ -19,8 +21,22 @@ header > h1 {
     text-align: center;
 }
 
-menu {
+i#burguer {
+    background-color: rgb(48, 48, 48);
     display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: none;
 }
 
 menu > ul {
@@ -34,7 +50,7 @@ menu > ul > li > a {
     text-decoration: none;
     background-color: rgb(47, 134, 13);
     color: white;
-    border: 2px solid gray;
+    border: 2px solid rgb(15, 85, 1);
 }
 
 menu > ul > li > a:hover {
